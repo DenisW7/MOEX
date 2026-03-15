@@ -57,3 +57,4 @@ with open('market_stocks.csv', 'w', encoding='utf-8') as file:
         result = '{}; {}\n'.format(name, price)
         file.write(result)
 
+print("Данные обновлены!")
